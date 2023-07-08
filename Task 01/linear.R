@@ -13,7 +13,7 @@ sum_y <- sum(y)
 xy <- x * y
 
 # calculate the square of x
-x_square <- x ^ 2
+x_square <- x^2
 
 # calculate the sum of xy and sum of x squares
 sum_xy <- sum(xy)
@@ -23,7 +23,7 @@ sum_x_square <- sum(x_square)
 n <- length(x)
 
 # calculate the slope and intercept of the linear regression line
-slope <- ((n * sum_xy) - (sum_x * sum_y)) / ((n * sum_x_square) - (sum_x ^ 2))
+slope <- ((n * sum_xy) - (sum_x * sum_y)) / ((n * sum_x_square) - (sum_x^2))
 intercept <- (1 / n) * (sum_y - (slope * sum_x))
 
 # calculate the predicted values of y using the linear regression line
